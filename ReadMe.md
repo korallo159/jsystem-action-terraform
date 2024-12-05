@@ -13,6 +13,7 @@ This repository contains a simple example of how to use Github Actions to run Te
     - a Droplet one with ubuntu 22.04 one with 20.04 (digitalocean_droplet resource)
     - add this droplet to the project
     - add this droplet to created VPC
+    - on droplet run nginx with example web page. (use cloud-init)
 4. Create firewall with rules: (use dynamic blocks) (digitalocean_firewall resource)
     - allow incoming traffic on port 22 from your IP
     - allow incoming traffic on port 80
